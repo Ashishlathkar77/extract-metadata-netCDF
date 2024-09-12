@@ -1,0 +1,31 @@
+{
+    "variables": [
+        "time",
+        "tau",
+        "depth",
+        "lat",
+        "lon",
+        "water_u",
+        "water_v",
+        "water_temp",
+        "salinity",
+        "surf_el"
+    ],
+    "dimensions": [
+        "lat",
+        "lon",
+        "depth",
+        "time"
+    ],
+    "attributes": {
+        "classification_level": "UNCLASSIFIED",
+        "distribution_statement": "Approved for public release; distribution unlimited.",
+        "downgrade_date": "not applicable",
+        "classification_authority": "not applicable",
+        "institution": "Naval Oceanographic Office",
+        "source": "HYCOM archive file",
+        "history": "archv2ncdf3z",
+        "field_type": "instantaneous",
+        "Conventions": "CF-1.6 NAVO_netcdf_v1.1"
+    }
+}
